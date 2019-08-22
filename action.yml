@@ -1,0 +1,9 @@
+name: Git Credentials Writer for GitHub Actions
+description: >
+  This action facilitates Git-based deployments over HTTP protocols (for example, to Heroku) by
+  configuring [Git's credential helper](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage) to
+  `store` URLs.
+author: Steve Winton
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
